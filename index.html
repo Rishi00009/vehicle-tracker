@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GPS Tracker Simulation - Awesome Project! 🎉</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GPS Tracker Simulation - Awesome Project! 🎉</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="controls">
+    <h1>Cool Vehicle Tracker! 🚗💨</h1>
 
-    <div id="controls">
-        <h1>Cool Vehicle Tracker! 🚗💨</h1>
-        
-        <button id="toggleButton">▶️ Play Simulation</button>
+    <button id="toggleButton">▶️ Play Simulation</button>
 
-        <div class="metadata-box">
-            <p><strong>Current Coords:</strong> <span id="currentCoordinate">Waiting...</span></p>
-            <p><strong>Time Updated:</strong> <span id="currentTimestamp">Waiting...</span></p>
-            <p><strong>Total Elapsed Time:</strong> <span id="elapsedTime">00:00:00</span></p>
-            <p><strong>Speed (km/h):</strong> <span id="currentSpeed">0.00</span></p>
-        </div>
+    <div class="metadata-box">
+      <p><strong>Current Coords:</strong> <span id="currentCoordinate">Waiting...</span></p>
+      <p><strong>Time Updated:</strong> <span id="currentTimestamp">Waiting...</span></p>
+      <p><strong>Total Elapsed Time:</strong> <span id="elapsedTime">00:00:00</span></p>
+      <p><strong>Speed (km/h):</strong> <span id="currentSpeed">0.00</span></p>
     </div>
+  </div>
 
-    <div id="map"></div>
+  <div id="map"></div>
 
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="script.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
