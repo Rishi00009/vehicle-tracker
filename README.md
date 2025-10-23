@@ -6,7 +6,7 @@ This simulation displays a moving vehicle icon along the **real road route** bet
 ---
 
 ## 🌍 Live Demo  
-👉 **[View Demo (GitHub Pages)](https://your-demo-link.com)**  
+👉 **[View Demo (GitHub Pages)](https://vehicle-tracker-rishi.netlify.app/)**  
 *(Optional — add link once deployed)*
 
 ---
